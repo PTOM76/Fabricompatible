@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "fabricompatible",
+  "version": "${version}",
+  "name": "Fabricompatible",
+  "description": "the mod is mod  to version independence",
+  "authors": [
+    "Pitan"
+  ],
+  "contact": {
+    "website": "https://www.curseforge.com/minecraft/mc-mods/Fabricompatible",
+    "repo": "https://github.com/PTOM76/Fabricompatible"
+  },
+  "license": "MIT",
+  "icon": "assets/fabricompatible/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "ml.pkom.fabricompatible.client.FabricompatibleClient"
+    ],
+    "main": [
+      "ml.pkom.fabricompatible.Fabricompatible"
+    ]
+  },
+  "mixins": [
+    "fabricompatible.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "1.14.x"
+  }
+}
